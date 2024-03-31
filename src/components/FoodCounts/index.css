@@ -1,0 +1,126 @@
+.foodcounts-app-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:aqua;
+    height:100vh;
+}
+
+.foodcounts-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+@media screen and (min-width: 768px) {
+    .foodcounte-counter {
+      width: 80%;
+      padding-top: 96px;
+      padding-left: 64px;
+      padding-right: 64px;
+      padding-bottom: 96px;
+    }
+  }
+  
+.count-heading{
+    font-family:"Roboto";
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+}
+@media  screen and (min-width:768px) {
+    .cout-heading{
+        font-size:45px;
+    }
+}
+
+.count{
+    font-family:"caveat";
+    font-size:25px;
+    font-weight:700;
+    color:tomato;
+}
+@media screen and (min-width:768px) {
+    .count{
+        font-size:28px;
+    }
+}
+.counters-control-container{
+    display:flex;
+    flex-direction:column;
+}
+@media screen and (min-width:768px){
+    .counters-control-container{
+        flex-direction:row;
+    }
+}
+
+.counter-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .counter-control {
+      margin-top: 96px;
+      margin-left: 48px;
+      margin-right: 48px;
+    }
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .button-container {
+      margin-top: 48px;
+    }
+  }
+  
+  .button {
+    color: #ffffff;
+    background-color: #007bff;
+    font-size: 12px;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .button {
+      font-size: 16px;
+    }
+  }
+  .pizza{
+    height:400px;
+    width:300px;
+  }
+  @media screen and (min-width:768px){
+    .pizza{
+      height:320;
+      width:275;
+    }
+  }
+
+  .burgar{
+    height:400px;
+    width:300px;
+  }
+  @media screen and (min-width:768px){
+    .burgar{
+      height:320;
+      width:275;
+    }
+  }
+  
